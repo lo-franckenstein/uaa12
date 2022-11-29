@@ -7,73 +7,37 @@
     <title>Fonctions PHP | Louis Francken</title>
 </head>
 <body>
-
     <?php 
-
-
-        function factorielle ($q) {
+        function factorielle ($number) {
             $reponse = 1;
-            for($compteur = 1; $compteur <= $q + 1; $compteur++) {
-                $reponse = $reponse * $compteur;
+            for($i = 1; $i <= $number + 1; $i++) {
+                $reponse = $reponse * $i;
             }
             return $reponse;
 
         }
     ?>
-
     <fieldset>
         <legend>Factorielle</legend>
         <div>
             <h1>Le résultat de la factorielle: <?= factorielle(7) ?>:</h1>
         </div>
     </fieldset>
-
-
-
 <?php 
-
-
     function occurence ($text, $letter) {
     $compteur = -1;
-    $compteurletter = 0;
-    phrase.Lenght <=> stiler($text);
-        
-
-    do {
-        $compteur == $compteur + 1;
-        if ()
-    } while ($numbertext == compteur);
-    return $reponse;
-
+    for ($i=0; $i < strlen($text); $i++) {
+        if ($text[$i] == $letter) {
+            $compteur++;
+        }
+        return $counter;
     }
 ?>
-
 <fieldset>
-    <legend>Factorielle</legend>
+    <legend>Occurence</legend>
     <div>
-        <h1>Le résultat de la factorielle: <?= occurence("Hey, comment-tu vas? J'espère que tu va bien et que tu aimes le PHP", "e") ?>:</h1>
+        <h1>Le nombre de a dans cette phrase: "Hey, comment-tu vas? J'espère que tu va bien et que tu aimes le PHP" est de: <?= occurence("Hey, comment-tu vas? J'espère que tu va bien et que tu aimes le PHP", "e") ?>:</h1>
     </div>
 </fieldset>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 </body>
 </html>

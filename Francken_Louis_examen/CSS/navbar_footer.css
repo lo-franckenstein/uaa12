@@ -1,0 +1,67 @@
+/* NAVIGATION */
+
+nav {
+    background-color: #0D91F5;
+    padding: 40px;
+}
+
+nav :hover {
+    background-color: #324D61;
+    cursor: grab;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+}
+
+.abutton {
+    text-decoration: none;
+    background-color: #899CAB;
+    border-radius: 50%;
+    color: whitesmoke;
+    border-style: solid;
+    border-color: #324D61;
+    border-width: 2.5px;
+    padding: 20px;
+    font-size: 1.2em;
+    
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #0D91F5;
+    padding: 40px;    
+}
+
+footer :hover {
+    background-color: #324D61;
+    cursor: grab;
+
+}
+
+.pourquelehovermarchebien {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footertext {
+    color: whitesmoke;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #324D61;
+    background-color: #899CAB;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.exam {
+    display: flex;
+    justify-content: center;
+}

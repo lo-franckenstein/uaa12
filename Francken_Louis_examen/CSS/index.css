@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+}
+
+.main {
+    justify-content: space-around;
+    display: flex;
+    background-color: #AFC8DB;
+}
+
+
+img {
+    width: 50px;
+    justify-content: center;
+}
+
+.column1 {
+    width: 120px;
+    padding-top: 5%;
+}
+
+.img1 {
+    display: flex;
+}
+
+.column4 {
+    width: 120px;
+    padding-top: 5%;
+}
+
+.img2 {
+    display: flex;
+}
+
+.forms {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.beforefooter {
+    justify-content: center;
+    display: flex;
+}
+
+.send {
+    background-color: #324D61;
+    color: whitesmoke;
+    border-color: #899CAB;
+    border-style: solid;
+    border-radius: 5%;
+    font-size: 1.2em;
+}
+
+
+fieldset {
+    width: 40%;
+}
+
+.beforefooter {
+    background-color: #AFC8DB;
+    padding-bottom: 10%;
+}

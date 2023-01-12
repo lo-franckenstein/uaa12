@@ -25,7 +25,7 @@
         </ul>
     </header>
     <div class="total">
-        <h1 class="title">Connection</h1>
+        <h1 class="title">Connexion</h1>
         <form action="">
             <div class="cadre">
                 <div class="block">

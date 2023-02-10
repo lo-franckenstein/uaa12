@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="CSS/loginregister.css">
     <title>Mon agence</title>
 </head>
-<body>
+<body class="palo">
 <header>
         <ul class="flex space-evenly">
             <li class="menu"><a href="index.php">Home</a></li>

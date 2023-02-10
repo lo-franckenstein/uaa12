@@ -10,7 +10,7 @@
     <title>Connexion</title>
 
 </head>
-<body>
+<body class="plalala">
     <header>
         <ul class="flex space-evenly">
             <li class="menu"><a href="index.php">Home</a></li>
